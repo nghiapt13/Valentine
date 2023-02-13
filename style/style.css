@@ -241,17 +241,6 @@ body {
   cursor: pointer;
 }
 
-.anh{
-  display: flex;
-}
-
-.anh .btec img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 0 10px;
-}
-
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
@@ -270,6 +259,9 @@ body {
     left: 32%;
   }
   .eight{
+    display: none;
+  }
+  .btec{
     display: none;
   }
 }
@@ -321,5 +313,12 @@ body {
   }
   .eight{
     display: none;
+  }
+/* put the bitc and btec img in img class in the center of the screen in responsive*/
+  .btec{
+    display: none;
+  }
+  .wish-hbd{
+    font-size: 20px;
   }
 }
